@@ -1,0 +1,13 @@
+data_path: data/DIV2K_train_valid_HR/
+
+model_m: 4
+model_d: 48
+model_s: 16
+lr_init: 0.001
+epochs: 300
+batch_size: 30
+steps_per_epoch: 20
+val_batch_size: 20
+validation_steps: 4
+
+weights_fn: "weights/model_fsrcnn_m4_d48_s16_SGD_{epoch:05d}.h5"
